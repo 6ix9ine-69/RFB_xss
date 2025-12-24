@@ -1,0 +1,8 @@
+#ifndef MERGESORT_H_INCLUDED
+#define MERGESORT_H_INCLUDED
+
+typedef bool (__cdecl *CMP_PROC)(PDOUBLY_LINKED_LIST lpFirst,PDOUBLY_LINKED_LIST lpSecond);
+
+void MergeSort(PDOUBLY_LINKED_LIST *lppList,PDOUBLY_LINKED_LIST *lppLastItem,CMP_PROC CmpProc);
+
+#endif // MERGESORT_H_INCLUDED

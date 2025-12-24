@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cJSON" />
+		<Option pch_mode="2" />
+		<Option compiler="microsoft_visual_c_2012_x86" />
+		<Build>
+			<Target title="Debug x86">
+				<Option output="$(WORKSPACEDIR)/bin/Debug/cjson x86" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(WORKSPACEDIR)/obj/Debug/cJSON x86/" />
+				<Option type="2" />
+				<Option compiler="microsoft_visual_c_2012_x86" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/MDd" />
+					<Add option="/Od" />
+					<Add option="/W3" />
+					<Add option="/Zi" />
+					<Add option="/DWIN32" />
+					<Add option="/D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="/debug" />
+				</Linker>
+			</Target>
+			<Target title="Release x86">
+				<Option output="$(WORKSPACEDIR)/bin/Release/cjson x86" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(WORKSPACEDIR)/obj/Release/cJSON x86/" />
+				<Option type="2" />
+				<Option compiler="microsoft_visual_c_2012_x86" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/Oy" />
+					<Add option="/Os" />
+					<Add option="/Ox" />
+					<Add option="/W3" />
+					<Add option="/DWIN32" />
+					<Add option="/DNDEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="$(WORKSPACEDIR)/bin/Debug/cjson x64" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(WORKSPACEDIR)/obj/Debug/cJSON x64/" />
+				<Option type="2" />
+				<Option compiler="microsoft_visual_c_2012_x64" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/MDd" />
+					<Add option="/Od" />
+					<Add option="/W3" />
+					<Add option="/Zi" />
+					<Add option="/DWIN32" />
+					<Add option="/D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="/debug" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="$(WORKSPACEDIR)/bin/Release/cjson x64" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(WORKSPACEDIR)/obj/Release/cJSON x64/" />
+				<Option type="2" />
+				<Option compiler="microsoft_visual_c_2012_x64" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/Oy" />
+					<Add option="/Os" />
+					<Add option="/Ox" />
+					<Add option="/W3" />
+					<Add option="/DWIN32" />
+					<Add option="/DNDEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Debug x86 (vc10)">
+				<Option output="$(WORKSPACEDIR)/bin/Debug/cjson x86 (vc10)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(WORKSPACEDIR)/obj/Debug/cJSON x86 (vc10)/" />
+				<Option type="2" />
+				<Option compiler="microsoft_visual_c_2010_x86_no_default_libs" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/MDd" />
+					<Add option="/Od" />
+					<Add option="/W3" />
+					<Add option="/Zi" />
+					<Add option="/DWIN32" />
+					<Add option="/D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="/debug" />
+				</Linker>
+			</Target>
+			<Target title="Release x86 (vc10)">
+				<Option output="$(WORKSPACEDIR)/bin/Release/cjson x86 (vc10)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(WORKSPACEDIR)/obj/Release/cJSON x86 (vc10)/" />
+				<Option type="2" />
+				<Option compiler="microsoft_visual_c_2010_x86_no_default_libs" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/Oy" />
+					<Add option="/Os" />
+					<Add option="/Ox" />
+					<Add option="/W3" />
+					<Add option="/DWIN32" />
+					<Add option="/DNDEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Debug x64 (vc10)">
+				<Option output="$(WORKSPACEDIR)/bin/Debug/cjson x64 (vc10)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(WORKSPACEDIR)/obj/Debug/cJSON x64 (vc10)/" />
+				<Option type="2" />
+				<Option compiler="microsoft_visual_c_2010_x64_no_default_libs" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/MDd" />
+					<Add option="/Od" />
+					<Add option="/W3" />
+					<Add option="/Zi" />
+					<Add option="/DWIN32" />
+					<Add option="/D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="/debug" />
+				</Linker>
+			</Target>
+			<Target title="Release x64 (vc10)">
+				<Option output="$(WORKSPACEDIR)/bin/Release/cjson x64 (vc10)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(WORKSPACEDIR)/obj/Release/cJSON x64 (vc10)/" />
+				<Option type="2" />
+				<Option compiler="microsoft_visual_c_2010_x64_no_default_libs" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/Oy" />
+					<Add option="/Os" />
+					<Add option="/Ox" />
+					<Add option="/W3" />
+					<Add option="/DWIN32" />
+					<Add option="/DNDEBUG" />
+				</Compiler>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="Debug" targets="Debug x86;Debug x64;Debug x86 (vc10);Debug x64 (vc10);" />
+			<Add alias="Release" targets="Release x86;Release x64;Release x86 (vc10);Release x64 (vc10);" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="/GA" />
+			<Add option="/fp:except-" />
+			<Add option="/Gy" />
+			<Add option="/GS-" />
+			<Add option="/QIfist" />
+			<Add option="/DUNICODE" />
+			<Add option="/D_UNICODE" />
+			<Add option="/D_LIB" />
+			<Add directory="$(WORKSPACE_DIR)/system/" />
+		</Compiler>
+		<Unit filename="cJSON.cpp" />
+		<Unit filename="cJSON.h" />
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

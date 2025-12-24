@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="masscan_prepare" />
+		<Option pch_mode="2" />
+		<Option compiler="microsoft_visual_c_2012_x86" />
+		<Build>
+			<Target title="masscan_prepare">
+				<Option output="$(WORKSPACEDIR)/ms/masscan_prepare.exe" prefix_auto="1" extension_auto="0" />
+				<Option working_dir="$(WORKSPACEDIR)/ms/" />
+				<Option object_output="$(WORKSPACEDIR)/obj/Release/masscan_prepare/" />
+				<Option type="1" />
+				<Option compiler="msvc10" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="/arch:SSE" />
+					<Add option="/Ox" />
+					<Add option="/DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add library="$(WORKSPACE_DIR)/bin/Release/syslib x86 (vc10).lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="/GA" />
+			<Add option="/Gy" />
+			<Add option="/W3" />
+			<Add option="/GS-" />
+			<Add option="/Zp16" />
+			<Add option="/Ob1" />
+			<Add option="/DUNICODE" />
+			<Add option="/D_UNICODE" />
+			<Add directory="$(WORKSPACE_DIR)" />
+			<Add directory="$(PROJECT_DIR)" />
+			<Add directory="$(WORKSPACE_DIR)/system" />
+		</Compiler>
+		<Linker>
+			<Add option="/fixed" />
+			<Add option="/entry:main" />
+			<Add option="/nodefaultlib" />
+			<Add library="ws2_32.lib" />
+			<Add library="secur32.lib" />
+			<Add library="crypt32.lib" />
+			<Add library="user32.lib" />
+			<Add library="kernel32.lib" />
+			<Add library="shlwapi.lib" />
+			<Add library="ntdll.lib" />
+			<Add library="D:/dev/VC98/LIB/MSVCRT.LIB" />
+			<Add library="wininet.lib" />
+			<Add library="version.lib" />
+			<Add library="userenv.lib" />
+			<Add library="comctl32.lib" />
+			<Add library="psapi.lib" />
+		</Linker>
+		<Unit filename="iplist_parser.cpp" />
+		<Unit filename="iplist_parser.h" />
+		<Unit filename="masscan.cpp" />
+		<Extensions>
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" use_define="0" update_manifest="1" do_auto_increment="0" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
