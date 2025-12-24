@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="XSS.is / RFB Brute">
+		<Project filename="system/system.cbp" />
+		<Project filename="cjson/cJSON.cbp" />
+		<Project filename="minizip/zlib/zlib.cbp" />
+		<Project filename="minizip/minizip/minizip.cbp" />
+		<Project filename="checker/checker.cbp" />
+		<Project filename="worker/worker.cbp" />
+		<Project filename="manager/manager.cbp" />
+		<Project filename="masscan_prepare/masscan_prepare.cbp" />
+		<Project filename="vpn_manager/vpn_mgr.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
